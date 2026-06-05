@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Training outputs
+runs/
+runs1/
+wandb/
+tensorboard/
+
+# Datasets
+dataset/images/
+dataset/labels/
+dataset/VOCdevkit/
+datasets/
+
+# Checkpoints and exported models
+weights/
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+*.h5
+*_saved_model/
+*_openvino_model/
+*_paddle_model/
+
+# Generated analysis files
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.docx
+events.out.tfevents.*
+
+# Repository assets
+!assets/
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db

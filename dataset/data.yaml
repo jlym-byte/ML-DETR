@@ -1,0 +1,20 @@
+# Dataset path. Change this to your dataset root.
+path: /path/to/dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+# Change to your class count and names.
+nc: 10
+names:
+  - class0
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  - class9
