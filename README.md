@@ -84,8 +84,6 @@ For RT-DETR baseline configs, use `--layers 19 22 25`.
 
 ```text
 ultralytics/cfg/models/ml-detr/ml-detr.yaml
-ultralytics/cfg/models/ml-detr/ml-detr-ecie.yaml
-ultralytics/cfg/models/ml-detr/ml-detr-ecie-toglsr.yaml
 ultralytics/cfg/models/rt-detr/rtdetr-r18.yaml
 ultralytics/cfg/models/rt-detr/rtdetr-r34.yaml
 ultralytics/cfg/models/rt-detr/rtdetr-r50.yaml
