@@ -1,13 +1,20 @@
+# Tested environment
+# Python 3.10.16
+# CUDA 12.1
+
+# PyTorch, tested with cu121 wheels.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+
 # Base
 matplotlib>=3.3.0
-numpy>=1.22.2
+numpy>=1.22.2,<2.0.0
 opencv-python>=4.6.0
 pillow>=7.1.2
 pyyaml>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1
-torch>=1.8.0
-torchvision>=0.9.0
 tqdm>=4.64.0
 
 # Plotting and metrics
@@ -22,8 +29,7 @@ py-cpuinfo
 thop>=0.1.1
 scikit-learn
 
-# Required by SSMamba in ultralytics/nn/modules/block.py.
-# Install versions compatible with your CUDA/PyTorch environment.
+# Required by SSMamba. Install versions compatible with the CUDA/PyTorch environment.
 causal-conv1d
 mamba-ssm
 
